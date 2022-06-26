@@ -1,12 +1,14 @@
-//javaScript code/
+//calculator.js
 
 const operator =prompt('Enter the operator to perform the calculation(either /,+,*, or-): ')
 const number1= parseFloat(prompt('Enter the first number: '));
 const number2= parseFloat(prompt('Enter the second Number: '));
 let result = 0;
-if(isNaN(number1)|| is NaN=(number2)){
-    alert("wrong input refresh and try again.");
-} else if (operator == "+"){
+
+//if(isNaN(number1)|| is NaN=(number2)){
+  //  alert("wrong input refresh and try again.");
+  
+   if (operator == "+"){
     result = number1 + number2;
 }else if(operator == "-"){
     result = number1 - number2;
